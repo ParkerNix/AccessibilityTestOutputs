@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taco Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="../assets/tacos.jpeg" alt="Delicious tacos">
+        <div class="tagline">
+            <h1>Welcome to Our Taco Restaurant</h1>
+            <p>Experience the authentic taste of Mexico in every bite!</p>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At our taco restaurant, we are dedicated to serving fresh and delicious tacos made from the finest ingredients sourced locally. Our recipes are inspired by traditional Mexican flavors, ensuring an authentic dining experience for our customers.</p>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="../assets/tacos1.jpg" alt="Taco">
+                <h3>Beef Taco</h3>
+                <p>A classic taco filled with seasoned ground beef, lettuce, cheese, and salsa.</p>
+            </div>
+            <div class="menu-item">
+                <img src="../assets/tacos1.jpg" alt="Taco">
+                <h3>Chicken Taco</h3>
+                <p>Tender grilled chicken, lettuce, tomatoes, cheese, and our special sauce wrapped in a soft tortilla.</p>
+            </div>
+            <div class="menu-item">
+                <img src="../assets/tacos1.jpg" alt="Taco">
+                <h3>Vegetarian Taco</h3>
+                <p>Fresh vegetables, beans, cheese, and guacamole served in a crispy taco shell.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to make a reservation? Contact us using the form below:</p>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Taco Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
